@@ -18,7 +18,6 @@ public class NBody {
 	    double yV = in.readDouble();
             double m = in.readDouble();
             String img = in.readString();
-	    img = "images/" + img;
 	    // System.out.print(xP + " " + yP + " " + xV + " " + yV + " " + m + " " + img);
 	    // System.out.print("\n");
 	    planets[index] = new Planet(xP, yP, xV, yV, m, img);
